@@ -1,0 +1,115 @@
+/* style.css */
+
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set the body background and font styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Main container for the Todo app */
+  .todo-container {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  .todo-main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Add items input and button container */
+  .add-items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  /* Input field styling */
+  .add-items input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Button icons styling */
+  .add-items i {
+    font-size: 20px;
+    color: #007bff;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  /* Styling for each todo item */
+  .showItems .each-item {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Todo item text styling */
+  .showItems .each-item h3 {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Edit and delete button styling */
+  .showItems .each-item .edit-btn,
+  .showItems .each-item .trash-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .showItems .each-item .edit-btn i {
+    color: #ffc107;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .showItems .each-item .trash-btn i {
+    color: #dc3545;
+    font-size: 18px;
+  }
+  
+  /* Remove all button styling */
+  .removeAll-items {
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .removeAll-items:hover {
+    background: #c82333;
+  }
+  
